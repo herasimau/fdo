@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gilroy-ExtraBold.otf">
+            <string>Gilroy-ExtraBold</string>
+        </array>
+        <array key="Gilroy-Light.otf">
+            <string>Gilroy-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="PaymentCell" customModule="FDO_TUSUR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qeg-UY-nA3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="SbB-ii-xal">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7rT-Cu-EWe">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="22"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMU-dV-cTA">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="22"/>
+                                                <fontDescription key="fontDescription" name="Gilroy-ExtraBold" family="Gilroy" pointSize="15"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3r5-1h-mSV">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="22"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jTh-kR-fc8">
+                                                <rect key="frame" x="0.0" y="0.0" width="146.5" height="22"/>
+                                                <fontDescription key="fontDescription" name="Gilroy-Light" family="Gilroy" pointSize="16"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xjY-nq-7wy">
+                                                <rect key="frame" x="156.5" y="0.0" width="163.5" height="22"/>
+                                                <fontDescription key="fontDescription" name="Gilroy-Light" family="Gilroy" pointSize="15"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="3r5-1h-mSV" secondAttribute="bottom" id="GPO-yy-dMn"/>
+                                    <constraint firstItem="7rT-Cu-EWe" firstAttribute="leading" secondItem="SbB-ii-xal" secondAttribute="leading" id="O2A-Zg-dDj"/>
+                                    <constraint firstItem="3r5-1h-mSV" firstAttribute="top" secondItem="7rT-Cu-EWe" secondAttribute="bottom" id="YBM-UR-Uoe"/>
+                                    <constraint firstItem="3r5-1h-mSV" firstAttribute="leading" secondItem="SbB-ii-xal" secondAttribute="leading" id="djw-9Z-885"/>
+                                    <constraint firstItem="3r5-1h-mSV" firstAttribute="top" secondItem="7rT-Cu-EWe" secondAttribute="bottom" id="eMb-Xf-hz8"/>
+                                    <constraint firstAttribute="trailing" secondItem="3r5-1h-mSV" secondAttribute="trailing" id="lrq-au-YaW"/>
+                                    <constraint firstItem="7rT-Cu-EWe" firstAttribute="top" secondItem="SbB-ii-xal" secondAttribute="top" id="qLv-wj-HUb"/>
+                                    <constraint firstAttribute="trailing" secondItem="7rT-Cu-EWe" secondAttribute="trailing" id="sop-NZ-paZ"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="SbB-ii-xal" firstAttribute="leading" secondItem="Qeg-UY-nA3" secondAttribute="leading" id="1gG-XI-RDj"/>
+                            <constraint firstItem="SbB-ii-xal" firstAttribute="top" secondItem="Qeg-UY-nA3" secondAttribute="top" id="brP-bf-uGL"/>
+                            <constraint firstAttribute="trailing" secondItem="SbB-ii-xal" secondAttribute="trailing" id="qV5-FH-tDC"/>
+                            <constraint firstAttribute="bottom" secondItem="SbB-ii-xal" secondAttribute="bottom" id="uXy-E5-yEJ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Qeg-UY-nA3" secondAttribute="bottom" id="Lk2-qw-lYR"/>
+                    <constraint firstItem="Qeg-UY-nA3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Zbn-U8-a4e"/>
+                    <constraint firstItem="Qeg-UY-nA3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="eCh-99-a9x"/>
+                    <constraint firstAttribute="trailing" secondItem="Qeg-UY-nA3" secondAttribute="trailing" id="iN6-GZ-d6B"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="amountLabel" destination="jTh-kR-fc8" id="zR1-df-IMR"/>
+                <outlet property="mainView" destination="Qeg-UY-nA3" id="hc4-Yq-MDk"/>
+                <outlet property="paymentDateLabel" destination="xjY-nq-7wy" id="yKC-3A-FDz"/>
+                <outlet property="purposeLabel" destination="wMU-dV-cTA" id="WbK-iY-mVr"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="118"/>
+        </tableViewCell>
+    </objects>
+</document>

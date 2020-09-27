@@ -1,0 +1,6 @@
+module Pods_FDO_TUSUR {
+  umbrella header "Pods-FDO_TUSUR-umbrella.h"
+
+  export *
+  module * { export * }
+}
