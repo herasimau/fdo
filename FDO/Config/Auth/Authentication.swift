@@ -10,6 +10,7 @@ import Foundation
 
 public struct Authentication: Codable {
 
+
     public struct Auth: Codable {
         public var accessToken: String
         public var refreshToken: String
