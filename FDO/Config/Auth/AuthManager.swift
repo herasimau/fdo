@@ -10,6 +10,7 @@ import Foundation
 
 public class AuthManager {
 
+    
     private init() {}
     public static var shared: AuthManager = AuthManager()
     private var auth: Authentication.Auth?
