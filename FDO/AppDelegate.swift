@@ -39,7 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     private func registerNetworkRepository() {
-        let localhost = "http://64.227.119.8:8080/"
+        let localhost = "http://145.239.90.184:8080/"
         DIContainer.register(AuthNetworkRepositoryAPI.self, component: AuthNetworkRepository(host: localhost))
         DIContainer.register(UserNetworkRepositoryAPI.self, component: UserNetworkRepository(host: localhost))
         DIContainer.register(SemesterNetworkRepositoryAPI.self, component: SemesterNetworkRepository(host: localhost))
