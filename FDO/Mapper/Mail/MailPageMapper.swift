@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+//test
 struct MailPageMapper: DTODecodableMappable {
     typealias Model = MailPageModel
     typealias Dto = MailPageDTO
