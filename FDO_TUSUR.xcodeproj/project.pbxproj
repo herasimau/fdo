@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5CEACA893DE623AF60E37330 /* libPods-FDO_TUSUR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A44088E1241E940E421FDF33 /* libPods-FDO_TUSUR.a */; };
+		D3DCA47F252115FB00B781AC /* mail.json in Resources */ = {isa = PBXBuildFile; fileRef = E5296BA52454C931004EF832 /* mail.json */; };
 		E5296B4424544E35004EF832 /* RecordBookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5296B4224544E35004EF832 /* RecordBookCell.swift */; };
 		E5296B4524544E35004EF832 /* RecordBookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5296B4324544E35004EF832 /* RecordBookCell.xib */; };
 		E5296B4724544E4F004EF832 /* RecordBookPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5296B4624544E4F004EF832 /* RecordBookPresenter.swift */; };
@@ -56,7 +57,6 @@
 		E5296B9F2454C62E004EF832 /* MailPageLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5296B9E2454C62E004EF832 /* MailPageLocalRepository.swift */; };
 		E5296BA12454C6C7004EF832 /* MailNetworkRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5296BA02454C6C7004EF832 /* MailNetworkRepository.swift */; };
 		E5296BA32454C763004EF832 /* MailService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5296BA22454C763004EF832 /* MailService.swift */; };
-		E5296BA62454C931004EF832 /* mail.json in Resources */ = {isa = PBXBuildFile; fileRef = E5296BA52454C931004EF832 /* mail.json */; };
 		E5296BA82454C963004EF832 /* MailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5296BA72454C963004EF832 /* MailPresenter.swift */; };
 		E5296BB02454D025004EF832 /* MailPageItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5296BAE2454D025004EF832 /* MailPageItemCell.swift */; };
 		E5296BB12454D025004EF832 /* MailPageItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5296BAF2454D025004EF832 /* MailPageItemCell.xib */; };
@@ -1104,8 +1104,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3DCA47F252115FB00B781AC /* mail.json in Resources */,
 				E582B030244726A700C1C80E /* Futura XBlk BT.ttf in Resources */,
-				E5296BA62454C931004EF832 /* mail.json in Resources */,
 				E5296B4524544E35004EF832 /* RecordBookCell.xib in Resources */,
 				E5FCBDF2244C5237004662B5 /* MailViewController.xib in Resources */,
 				E5296BB12454D025004EF832 /* MailPageItemCell.xib in Resources */,
